@@ -158,7 +158,7 @@ func GenerateProductsSheet(db *sql.DB) {
 
 	
 
-	if err := file.SaveAs("Book1.xlsx"); err != nil {
+	if err := file.SaveAs("Book1.xlsx"); err != nil {}
         //fmt.Println(err)
     }
 }
